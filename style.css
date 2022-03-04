@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.wrong {
+    color: red;
+}
+
+.correct {
+    color: #739e82;
+}
+
+body {
+    background-color: #fbfffe;
+}
+
+.body {
+    width: 60%;
+}
+
+.shown {
+    scrollbar-width: thin;
+}
+
+textarea {
+    width: 100%;
+    scrollbar-width: thin;
+    resize: none !important;
+}
+
+#resetBtn {
+    width: 100%;
+}
